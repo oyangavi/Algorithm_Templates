@@ -46,10 +46,10 @@ def heap_operations():
     heapq._siftdown(data, 0, i)
 
     # find n largest by queue
-    heapq.nlargest(data, 3)
+    heapq.nlargest(n, data)
 
     # find n smallest by queue
-    heapq.nsmallest(data, 3)
+    heapq.nsmallest(n, data)
 
     # Merge multiple sorted inputs into a single sorted output
     # e.g. merge timestamped entries from multiple log files
